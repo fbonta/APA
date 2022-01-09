@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Environment">
+      <UniqueIdentifier>{4f8e4de7-13e0-437d-843f-0bb3d9746398}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Agents">
+      <UniqueIdentifier>{d23b946c-4030-45fd-b076-93b508ba58b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Search">
+      <UniqueIdentifier>{058b385d-4ee6-42b6-ab31-69434e6034a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DataStructures">
+      <UniqueIdentifier>{824ebd9f-80c9-4a8f-96f6-b6fa015ea26b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Search\UninformedSearch">
+      <UniqueIdentifier>{1f00e26f-aedf-46be-afa0-ccc448bbb1d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Search\InformedSearch">
+      <UniqueIdentifier>{febfa94f-b217-4ec1-8918-a99a9dbb1452}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Environment.h">
+      <Filter>Header Files\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Agent.h">
+      <Filter>Header Files\Agents</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchAgent.h">
+      <Filter>Header Files\Agents</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem.h">
+      <Filter>Header Files\DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files\DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>Header Files\DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="BreadthFirstSearch.h">
+      <Filter>Header Files\Search\UninformedSearch</Filter>
+    </ClInclude>
+    <ClInclude Include="UniformCostSearch.h">
+      <Filter>Header Files\Search\UninformedSearch</Filter>
+    </ClInclude>
+    <ClInclude Include="PriorityQueue.h">
+      <Filter>Header Files\DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>Header Files\DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthFirstSearch.h">
+      <Filter>Header Files\Search\UninformedSearch</Filter>
+    </ClInclude>
+    <ClInclude Include="IterativeDeepeningSearch.h">
+      <Filter>Header Files\Search\UninformedSearch</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
